@@ -2,8 +2,8 @@
 class Storage {
   #items;
 
-  constructor(arrItems) {
-    this.#items = arrItems;
+  constructor(items) {
+    this.#items = items;
   }
 
   getItems() {
